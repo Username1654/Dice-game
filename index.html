@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice game</title>
+   <link rel="stylesheet" href="game.css">
+</head>
+<body>
+   <div id="con">
+
+    <h1 id="title">Dice Game</h1>
+    <div id="details">
+        <p id="money"></p>
+        <p id="rolls"></p>
+    </div>
+    <div id="right">
+        <p style="margin-top: 10%;">SHOP<br>
+            ↓<br>
+        </p>
+    </div>
+
+
+    <div id="roll">
+        <p id="number"></p>
+        <p id="bad"></p>
+        
+
+       
+    <button id="rolling" onclick="roll()">Roll</button>
+
+    <div id="guess">
+    <button class="button" onclick="even()" id="even">Even</button>
+    <button class="button" onclick="odd()" id="odd">Odd</button>
+    </div>
+    </div>
+    <img src="zar.gif" alt="spinning dice" id="d">
+    <img src="sorry-temporarily-out-of-stock-sign-vector.jpg" alt="Sorry out of stock" id="s">
+   </div> 
+   
+
+
+   <audio src="cartoon-fail-trumpet-278822.mp3" id="fail"></audio>
+   <audio src="yay-6326.mp3" id="yay"></audio>
+   <audio src="sad-dramatic-piano-sad-alone-drama-262415.mp3" autoplay loop id="backgroundMusic"></audio>
+   <audio src="young-male-scream-86878.mp3" id="scream"></audio>
+
+
+   <script src="script.js"></script>
+</body>
+</html>
